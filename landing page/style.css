@@ -1,0 +1,174 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.35) , rgba(0,0,0,0.35)), url(/landing/bg.jpg);
+    color:white;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar {
+    height: 95px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.name {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.links {
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+.links a:hover {
+        color: rgb(204, 216, 201);
+        text-decoration: underline;
+        text-underline-offset: 0.7rem;
+    }
+
+.search {
+    padding: 0.5rem 0;
+    border-bottom: 0.5px solid rgb(204, 216, 201);
+}
+
+.search input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.search i{
+    font-size: 1rem;
+}
+
+/* hero sec */
+
+#Home {
+    display: flex;
+    padding-top: 100px;
+    min-height: 78vh;
+    padding: 2rem;
+    position: relative;
+    margin: auto;
+    max-width: 1250px;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1;
+}
+
+.left{
+    max-width: 400px;
+    display: grid;
+    gap: 1rem;
+}
+
+h1 {
+    font-size: 5rem;
+    padding-bottom: 1rem;
+    line-height: 5rem;
+    font-weight: 700;
+}
+
+.btn {
+    display: flex;
+    gap: 1rem;
+}
+
+.btn button {
+    padding: 0.5rem 2rem;
+    background-color: rgba(255, 255, 255, 0.219);
+    font-size: 1rem;
+    color: white;
+    outline: none;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: 2px solid white;
+}
+
+button:hover {
+    cursor: pointer;
+    background: rgba(198, 195, 195, 0.704);
+    color: white;
+}
+
+.arrows {
+    display: flex;
+    gap: 1rem;
+}
+
+.arrows span{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    padding-top: 10px;
+}
+
+.right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+form {
+    display: grid;
+    width: 350px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.232);
+    margin-right: 3rem;
+}
+
+h4 {
+    padding: 2rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+} 
+
+input::placeholder {
+    color: rgb(214, 214, 214); 
+}
+
+.group {
+    display: grid;
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+}
+
+.group input {
+    padding: .5rem;
+    font-size: 1rem;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+.btnsub {
+    height: 2.5rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
